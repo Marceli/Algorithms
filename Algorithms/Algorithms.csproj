@@ -90,6 +90,7 @@
     <Compile Include="AssertTest.cs" />
     <Compile Include="AutoResetEvent.cs" />
     <Compile Include="CapturedVariable.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="ComplementaryArray.cs" />
     <Compile Include="DelegateTest.cs" />
     <Compile Include="Enumerator.cs" />
