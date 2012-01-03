@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -14,6 +15,7 @@ namespace Algorithms
 		
 		public static void Main()
 		{
+			
 			Console.WriteLine("\nStart 3 named threads that block on a ManualResetEvent:\n");
 
 			for (int i = 0; i <= 2; i++)

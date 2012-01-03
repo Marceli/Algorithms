@@ -1,0 +1,7 @@
+C:\Dev\Algorithms\Algorithms\Agorithms4\Algorithms4\bin\Debug\Algorithms4.exe
+C:\Dev\Algorithms\Algorithms\Agorithms4\Algorithms4\bin\Debug\Algorithms4.pdb
+C:\Dev\Algorithms\Algorithms\Agorithms4\Algorithms4\obj\Debug\ResolveAssemblyReference.cache
+C:\Dev\Algorithms\Algorithms\Agorithms4\Algorithms4\obj\Debug\Algorithms4.exe
+C:\Dev\Algorithms\Algorithms\Agorithms4\Algorithms4\obj\Debug\Algorithms4.pdb
+C:\Dev\Algorithms\Algorithms\Agorithms4\Algorithms4\bin\Debug\nunit.framework.dll
+C:\Dev\Algorithms\Algorithms\Agorithms4\Algorithms4\bin\Debug\nunit.framework.xml
