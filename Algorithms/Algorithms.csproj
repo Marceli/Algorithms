@@ -79,6 +79,7 @@
     <Compile Include="Permutation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RandomizeArray.cs" />
+    <Compile Include="ReverseLinkedList.cs" />
     <Compile Include="StringTest.cs" />
     <Compile Include="SumCollection.cs" />
   </ItemGroup>
