@@ -91,6 +91,7 @@
     <Compile Include="AssertTest.cs" />
     <Compile Include="AutoResetEvent.cs" />
     <Compile Include="CapturedVariable.cs" />
+    <Compile Include="InheritanceAndConstruktors.cs" />
     <Compile Include="MostCommonWord.cs" />
     <Compile Include="ComplementaryArray.cs" />
     <Compile Include="DelegateTest.cs" />
