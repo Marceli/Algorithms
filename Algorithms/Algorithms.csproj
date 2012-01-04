@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Algorithms</RootNamespace>
     <AssemblyName>Algorithms</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <StartupObject>Algorithms.AutoResetEventTest</StartupObject>
     <FileUpgradeFlags>
@@ -32,6 +32,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -90,7 +91,7 @@
     <Compile Include="AssertTest.cs" />
     <Compile Include="AutoResetEvent.cs" />
     <Compile Include="CapturedVariable.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="MostCommonWord.cs" />
     <Compile Include="ComplementaryArray.cs" />
     <Compile Include="DelegateTest.cs" />
     <Compile Include="Enumerator.cs" />
@@ -105,10 +106,13 @@
     <Compile Include="Permutation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RandomizeArray.cs" />
+    <Compile Include="RecurrencyFactorial.cs" />
+    <Compile Include="ReverseLinkedList.cs" />
     <Compile Include="SortedDictionary.cs" />
     <Compile Include="StringComparingByRefAndValue.cs" />
     <Compile Include="StringTest.cs" />
     <Compile Include="SumCollection.cs" />
+    <Compile Include="ThreadSafeList.cs" />
     <Compile Include="WindsorMultiTenancy.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -129,6 +133,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

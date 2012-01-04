@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using NUnit.Framework;
 
 namespace Algorithms
@@ -11,22 +8,22 @@ namespace Algorithms
 	{
 		public int GetFibonacci(int value)
 		{
-			int fibonaci0 = 0;
-			int fibonaci1 = 1;
-			int fibonaci=0;
+			int previous = 0;
+			int current = 1;
+			int next=0;
 			if (value < 0)
 				throw new ArgumentOutOfRangeException("Positive integers please");
 			if (value == 0)
-				return fibonaci0;
+				return previous;
 			if (value == 1)
-				return fibonaci1;
+				return current;
 			for(int i=2;i<=value;i++)
 			{
-				fibonaci = fibonaci0 + fibonaci1;
-				fibonaci0 = fibonaci1;
-				fibonaci1 = fibonaci;
+				next = previous + current;
+				previous = current;
+				current = next;
 			}
-			return fibonaci;
+			return next;
 
 		}
 		[Test]

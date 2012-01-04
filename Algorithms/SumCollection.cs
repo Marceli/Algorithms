@@ -14,6 +14,7 @@ namespace Algorithms
         public void Test()
         {
             Enumerable.Range(1, 9).Sum();
+            Assert.AreEqual(5,Enumerable.Range(1, 5).Max());
         }
     }
 }
