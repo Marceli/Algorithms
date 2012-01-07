@@ -8,7 +8,7 @@ using NUnit.Framework;
 namespace Algorithms
 {
     [TestFixture]
-    public class InheritanceAndConstruktors
+    public class InheritanceAndConstructors
     {
         [Test]
         public void ConstructorOrderTest()

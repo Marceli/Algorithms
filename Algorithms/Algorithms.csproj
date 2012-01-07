@@ -91,7 +91,9 @@
     <Compile Include="AssertTest.cs" />
     <Compile Include="AutoResetEvent.cs" />
     <Compile Include="CapturedVariable.cs" />
-    <Compile Include="InheritanceAndConstruktors.cs" />
+    <Compile Include="Events.cs" />
+    <Compile Include="GacTest.cs" />
+    <Compile Include="InheritanceAndConstructors.cs" />
     <Compile Include="MostCommonWord.cs" />
     <Compile Include="ComplementaryArray.cs" />
     <Compile Include="DelegateTest.cs" />
@@ -110,10 +112,13 @@
     <Compile Include="RecurrencyFactorial.cs" />
     <Compile Include="ReverseLinkedList.cs" />
     <Compile Include="SortedDictionary.cs" />
+    <Compile Include="SpinLock.cs" />
+    <Compile Include="SpinLockDemo.cs" />
     <Compile Include="StringComparingByRefAndValue.cs" />
     <Compile Include="StringTest.cs" />
     <Compile Include="SumCollection.cs" />
     <Compile Include="ThreadSafeList.cs" />
+    <Compile Include="WhyInitializersRunOpositeOrderThanConstructors.cs" />
     <Compile Include="WindsorMultiTenancy.cs" />
   </ItemGroup>
   <ItemGroup>
